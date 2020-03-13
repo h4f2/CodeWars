@@ -30,4 +30,4 @@
 
 # codes of mine
 def tribonacci(signature, n):
-    return tribonacci(signature+[sum(signature[-3:])],n-1) if n > 2 else signature[:(-1 if len(signature)>3 else n)]
+    return tribonacci(signature+[sum(signature[-3:])],n) if n > len(signature) else signature[:n]
