@@ -24,6 +24,10 @@ def clean_string(s):
     return clean_string(s.split('#',1)[0][:-1]+s.split('#',1)[1]) if '#' in s else s
 
 
+
+
+
+
 #the code of others
 
 import re
